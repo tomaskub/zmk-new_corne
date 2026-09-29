@@ -11,6 +11,11 @@
 #include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
 
+&mt {
+    flavor = "tap-preferred";
+    tapping-term-ms = <180>;
+};
+
 &soft_off { hold-time-ms = <2000>; };
 
 / {
